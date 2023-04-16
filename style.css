@@ -1,0 +1,17 @@
+.container1{
+    border: solid 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#target{
+    align-items: center;
+}
+
+button{
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 7px;
+    background-image: linear-gradient(rgb(251, 72, 27), rgb(188, 232, 208));
+}

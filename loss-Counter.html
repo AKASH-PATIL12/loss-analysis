@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loss-Counter</title>
+
+    <!-- Source File Linking -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+ 
+</head>
+<body>
+    <div class="target-counter">
+
+    <!-- ------------- Tool 1 ---------- -->
+
+        <div class="container1">
+
+            
+            
+            <div>
+
+                <label for="machine">M/c_Name :</label>
+
+                <select id="machine" name="machine" required>
+                <option value="NB(1)">NB(1)</option>
+                <option value="NB(2)">NB(2)</option>
+                <option value="NB(3)">NB(3)</option>
+                <option value="E400">E400</option>
+                <option value="E600">E600</option>
+                <option value="E600(2)">E600(2)</option>
+                <option value="Y560">Y560</option>
+                <option value="Y650">Y650</option>
+                <option value="JSW450">JSW450</option>
+                <option value="NB550">NB550</option>
+                <option value="E120(9)">E120(9)</option>
+
+                </select>
+
+                <!-- Input Cycle Time  -->
+                <label for="cyl-time">Cycle Time :</label>
+                <input id="cylTime" type="number" required>
+
+            </div>
+            
+            <div class="display">
+                <!-- Showing Target with name -->
+                <label for="target">Target :</label>
+                <h3 id="target"></h3>
+            </div>
+
+            <button type="submit" onclick="calculateTar()"> SUBMIT </button> 
+        </div>
+    <!-- -----------  T1 Close ---------- -->
+
+
+
+    </div>
+</body>
+</html>
